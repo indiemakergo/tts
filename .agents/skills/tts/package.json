@@ -1,0 +1,28 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "text to speech like real human",
+  "homepage": "https://github.com/indiemakergo/tts#readme",
+  "bugs": {
+    "url": "https://github.com/indiemakergo/tts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indiemakergo/tts.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@autoclickpro/run": "^1.0.2",
+    "dotenv": "^16.4.7",
+    "lodash-es": "^4.17.21",
+    "minimist": "^1.2.8",
+    "zx": "^8.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tts": "node scripts/cli.mjs tts "
+  }
+}

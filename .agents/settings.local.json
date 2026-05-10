@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm .agents)",
+      "Bash(mv .claude .agents)",
+      "Bash(ln -s .agents .claude)"
+    ]
+  }
+}
